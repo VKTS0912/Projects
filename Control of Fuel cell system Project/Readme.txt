@@ -1,2 +1,3 @@
 Proton exchange membrane fuel cells (PEMFCs) are the most promising fuel cell technology because of their high-power density, low operating temperature, quick startup capability, and low weight.
 Through this project, we managed to model and draw the characteristic curve of the fuel cell. Moreover, a sliding mode controller for PEMFC system has been designed, successfully extracting the maximum power of the fuel cell
+To see the characteristic curves of the fuel cell, run the smx file
