@@ -1,3 +1,0 @@
-In this project, we propose the linear and angular position control of a stepper-motor-driven self-balancing robot.
-A linear quadratic regulator (LQR) is tuned to obtain accurate control of the system.
-To find the gain vector K for the controller, run the m file
