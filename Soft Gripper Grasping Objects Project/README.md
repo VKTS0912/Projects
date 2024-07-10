@@ -49,8 +49,8 @@ The object .obj files must be found in a folder directory like this:
 ----- egad_train_set
 ```
 Modify line 9 and 44 in file 'gen_objects.py' to make the correct folder workspace (change workspace to the correct directory on your machine):
-object_folder = '/workspace/IsaacGymEnvs/assets/urdf/egad_objects/egadtrainset/egad_train_set'.
-output_folder = f"/workspace/IsaacGymEnvs/assets/urdf/egad_objects".
+object_folder = '/workspace/IsaacGymEnvs/assets/urdf/egad_objects/egadtrainset/egad_train_set'.   
+output_folder = f"/workspace/IsaacGymEnvs/assets/urdf/egad_objects".    
 Run the file and you will see the created urdf files of the object assets located in /workspace/IsaacGymEnvs/assets/urdf/egad_objects
 ## Download the pretrained models
 
