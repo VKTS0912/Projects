@@ -25,8 +25,13 @@ So far, this project focuses on the initial stage of this process: training the 
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+Download the Isaac Gym Preview 4 release from the website, then follow the installation instructions in the documentation. It is highly recommended to use a conda environment to simplify set up.
+
+Ensure that Isaac Gym works on your system by running one of the examples from the python/examples directory, like joint_monkey.py. Follow troubleshooting steps described in the Isaac Gym Preview 4 install instructions if you have any trouble running the samples.
+
+Once Isaac Gym is installed and samples work within your current python environment, install this repo:
+```
+pip install -e .
 
 ### Executing program
 
