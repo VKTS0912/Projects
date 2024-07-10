@@ -24,6 +24,7 @@ So far, this project focuses on the initial stage of this process: training the 
 * [Wandb](https://wandb.ai/site)
 
 ### Installing
+## Download packages
 
 Download the Isaac Gym Preview 4 release from the website, then follow the installation instructions in the documentation. It is highly recommended to use a conda environment to simplify set up.
 
@@ -32,6 +33,26 @@ Ensure that Isaac Gym works on your system by running one of the examples from t
 Once Isaac Gym is installed and samples work within your current python environment, install this repo:
 ```
 pip install -e .
+```
+## Download the object dataset
+Create a new folder named 'egad_objects' inside the following folder: /workspace/IsaacGymEnvs/assets/urdf
+```
+cd /workspace/IsaacGymEnvs/assets/urdf
+mkdir "egad_objects"
+```
+Download the object dataset from [here](https://dougsm.github.io/egad/), and unzip it to the created folder: /workspace/IsaacGymEnvs/assets/urdf/egad_objects.
+The object .obj files must be found in a folder directory like this:
+```
+-- Root
+--- egad_objects
+---- egadtrainset
+----- egad_train_set
+```
+Modify line 9 and 44 in file 'gen_objects.py' to make the correct folder workspace (change workspace to the correct directory on your machine):
+object_folder = '/workspace/IsaacGymEnvs/assets/urdf/egad_objects/egadtrainset/egad_train_set'
+output_folder = f"/workspace/IsaacGymEnvs/assets/urdf/egad_objects"
+Run the file and you will see the created urdf files of the object assets located in /workspace/IsaacGymEnvs/assets/urdf/egad_objects
+## Download the pretrained models
 
 ### Executing program
 
