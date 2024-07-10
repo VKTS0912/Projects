@@ -48,7 +48,7 @@ Create a new folder named 'egad_objects' inside the following folder: /workspace
 cd /workspace/IsaacGymEnvs/assets/urdf
 mkdir egad_objects
 ```
-Download the object dataset from [here](https://dougsm.github.io/egad/), and unzip it to the created folder: /workspace/IsaacGymEnvs/assets/urdf/egad_objects.
+Download the object dataset from [here](https://dougsm.github.io/egad/), and unzip it to the created folder: '/workspace/IsaacGymEnvs/assets/urdf/egad_objects'.    
 The object .obj files must be found in a folder directory like this:
 ```
 -- Root
@@ -56,10 +56,10 @@ The object .obj files must be found in a folder directory like this:
 ---- egadtrainset
 ----- egad_train_set
 ```
-Modify line 9 and 44 in file 'gen_objects.py' to make the correct folder workspace (replace 'workspace' with the correct root directory on your machine):
+Modify line 9 and 44 in file 'gen_objects.py' to make the correct folder workspace (replace 'workspace' with the correct root directory on your machine):       
 9. object_folder = '/workspace/IsaacGymEnvs/assets/urdf/egad_objects/egadtrainset/egad_train_set'      
 44. output_folder = f"/workspace/IsaacGymEnvs/assets/urdf/egad_objects"      
-Run the file and you will see the created urdf files of the object assets located in /workspace/IsaacGymEnvs/assets/urdf/egad_objects
+Run the file and you will see the created urdf files of the object assets located in '/workspace/IsaacGymEnvs/assets/urdf/egad_objects'     
 ## Set up the task
 ### Prepare gripper assets
 We use the base urdf mesh files of 3-fingered gripper to generate different types of grippers.     
@@ -74,8 +74,8 @@ Locate the folder named 'gripper_file_base' that is downloaded from the reposito
 ---- IsaacGymEnv
 ---- gripper_file_base
 ```
-Modify the file 'gen_grippers.py' to make the correct folder workspace (replace 'workspace' with the correct root directory on your machine)      
-Then run the file and you will see the created urdf files of grippers located in /workspace/IsaacGymEnvs/assets/urdf/soft_gripper/gen_grippers
+Modify the file 'gen_grippers.py' to make the correct folder workspace (replace 'workspace' with the correct root directory on your machine).          
+Then run the file and you will see the created urdf files of grippers located in '/workspace/IsaacGymEnvs/assets/urdf/soft_gripper/gen_grippers'     
 
 ### Executing program
 
