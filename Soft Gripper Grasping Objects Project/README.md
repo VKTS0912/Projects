@@ -33,6 +33,12 @@ Once Isaac Gym is installed and samples work within your current python environm
 ```
 pip install -e .
 ```
+The directory should look like this:    
+```
+-- Root
+---- IsaacGymEnvs
+---- isaacgym
+```
 ### Download the repository
 asd
 ### Download the object dataset
