@@ -35,7 +35,7 @@ Once Isaac Gym is installed and samples work within your current python environm
 pip install -e .
 ```
 ## Download the repository
-
+asd
 ## Download the object dataset
 Create a new folder named 'egad_objects' inside the following folder: /workspace/IsaacGymEnvs/assets/urdf
 ```
