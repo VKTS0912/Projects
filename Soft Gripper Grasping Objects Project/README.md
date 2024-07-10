@@ -15,7 +15,7 @@ However, a significant challenge in robotic learning is the sim-to-real gap, the
 
 So far, this project focuses on the initial stage of this process: training the teacher policy in simulation. By utilizing advanced simulation tools, this project aims to develop a robust and effective teacher policy that can demonstrate optimal grasping strategies which can generalize to different scale of soft grippers and objects.
 
-## Getting Started
+## Installation
 
 ### Dependencies
 
@@ -23,8 +23,7 @@ So far, this project focuses on the initial stage of this process: training the 
 * [IsaacGymEnvs](https://github.com/NVIDIA-Omniverse/IsaacGymEnvs)
 * [Wandb](https://wandb.ai/site)
 
-### Installing
-## Download packages
+### Download packages
 
 Download the Isaac Gym Preview 4 release from the website, then follow the installation instructions in the documentation. It is highly recommended to use a conda environment to simplify set up.
 
@@ -34,9 +33,9 @@ Once Isaac Gym is installed and samples work within your current python environm
 ```
 pip install -e .
 ```
-## Download the repository
+### Download the repository
 asd
-## Download the object dataset
+### Download the object dataset
 Create a new folder named 'egad_objects' inside the following folder: /workspace/IsaacGymEnvs/assets/urdf
 ```
 cd /workspace/IsaacGymEnvs/assets/urdf
