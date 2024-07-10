@@ -34,6 +34,8 @@ Once Isaac Gym is installed and samples work within your current python environm
 ```
 pip install -e .
 ```
+## Download the repository
+
 ## Download the object dataset
 Create a new folder named 'egad_objects' inside the following folder: /workspace/IsaacGymEnvs/assets/urdf
 ```
@@ -49,10 +51,10 @@ The object .obj files must be found in a folder directory like this:
 ----- egad_train_set
 ```
 Modify line 9 and 44 in file 'gen_objects.py' to make the correct folder workspace (change workspace to the correct directory on your machine):
-object_folder = '/workspace/IsaacGymEnvs/assets/urdf/egad_objects/egadtrainset/egad_train_set'.   
-output_folder = f"/workspace/IsaacGymEnvs/assets/urdf/egad_objects".    
+9. object_folder = '/workspace/IsaacGymEnvs/assets/urdf/egad_objects/egadtrainset/egad_train_set'      
+44. output_folder = f"/workspace/IsaacGymEnvs/assets/urdf/egad_objects"      
 Run the file and you will see the created urdf files of the object assets located in /workspace/IsaacGymEnvs/assets/urdf/egad_objects
-## Download the pretrained models
+## Set up the task
 
 ### Executing program
 
